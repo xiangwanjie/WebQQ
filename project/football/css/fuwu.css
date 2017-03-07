@@ -1,0 +1,191 @@
+body{margin:0; padding:0;}/*两边边距为0*/
+
+/*头部*/
+#header{clear:both;}/*清除浮动*/
+#header{ width:100%; height:168px;}
+		/*顶部绿色div的设置*/
+		#div1{background-color:#b2ce22;
+		      width:100%;
+			  height:38px;}  
+		 /*顶部左边英文的设置*/
+		#div2{font-family:"新宋体"; 
+		      color:#ffffff; 
+			  margin-left:100px; 
+			  margin-top:-25px;}
+		/*顶部右边排英文的设置*/
+		#div3{font-family:"新宋体";
+		      float:right;margin-top:-25px;
+			  margin-right:100px; 
+			  color:#ffffff; 
+			  padding-top:5px;} 
+		 /*顶部图片的设置*/
+		#div4{margin-left:1280px; 
+		      margin-top:-18px;}
+		/*头部导航条背景黑色部分的设置*/
+		#div5{width:100%; 
+		      height:133px;
+			  background-color:#1c1d24; 
+			  margin-top:21px;
+			  clear:both;}
+		/*搜索框的设置*/
+		#div6{ float:right; 
+			   margin-top:25px;
+			   margin-right:80px;}
+		/*搜索图标放大镜的设置*/
+		#div7{float:right;
+			  margin-top:32px;
+			  margin-right:-210px;}
+		/*英文football的设置*/
+		#div8{ font-size:60px;
+			   color:#FFFFFF; 
+			   font-family:utsaah; 
+			   margin-top:-10px; 
+			   margin-right:100px; 
+			   padding-top:50px; 
+			   margin-left:70px;}
+		/*导航条的设置*/
+		#div9{float:right; 
+			  margin-right:150px; 
+			  margin-top:-20px;}
+		/*a标签链接的设置*/
+		a{text-decoration:none; 
+		  color:#ffffff;}
+		/*a标签链接的设置*/
+		a:hover{color:#b2ce22;}
+		/*a标签链接的设置*/
+		a:active { font-style:italic;}
+		/*导航条间距的设置*/
+		a,b,c,d,e,f{ margin-left:15px;}
+		#cent{color:#66CC00;}
+
+
+
+
+
+
+	/*主要内容*/
+	
+	/*英文SERVICES的设置*/
+#zhu{ width:100%; height:1174px;}
+	#div10{font-size:60px; 
+		   padding-top:45px; 
+		   font-family:Verdana, Arial, Helvetica, sans-serif; 
+		   color:#333333; 
+		   text-align:center;}
+	
+	/*div文本设置*/
+	#diva{ border:1px; 
+		   padding-left:80px; 
+		   width:600px; 
+		   height:130px;
+		   color:#000000; 
+		   font-size:18px; 
+		   margin-left:34px; 
+		   margin-top:20px; 
+		   float:left;}
+	
+	#divaa{color:#66CC00;}
+	
+	#divb{ border:1px; 
+		   padding-left:30px; 
+		   width:520px; 
+		   height:130px;
+		   color:#000000; 
+		   font-size:18px; 
+		   margin-left:34px; 
+		   margin-top:20px; 
+		   float:left;}
+	
+	#divbb{color:#66CC00;}
+	
+	#divc{ border:1px; 
+		   padding-left:80px; 
+		   width:600px; 
+		   height:130px;
+		   color:#000000; 
+		   font-size:18px; 
+		   margin-left:34px; 
+		   margin-top:20px; 
+		   float:left;}
+	#divcc{color:#66CC00;}
+	
+	#divd{ border:1px; 
+		   padding-left:30px; 
+		   width:520px; 
+		   height:130px;
+		   color:#000000; 
+		   font-size:18px; 
+		   margin-left:34px; 
+		   margin-top:20px; 
+		   float:left;}
+	
+	#divdd{color:#66CC00;}
+	
+	/*content*/
+	/*div的设置，距离左边118个像素*/
+	#div11{ padding-left:118px;}
+	/*图片距离的设置*/
+	#div12{ padding-top:40px;}
+	/*MAIN SERVICES的设置*/
+	#div13{font-size:28px; 
+		   font-family:Verdana, Arial, Helvetica, sans-serif; 
+		   color:#333333; 
+		   float:right; 
+		   margin-top:-380px; 
+		   margin-right:436px;}
+	
+	/*对正文的设置*/
+	#div14{float:right; 
+		   margin-top:-300px; 
+		   margin-right:145px;}
+	/*对图标的设置*/
+	#div15{float:right; 
+		   margin-top:-80px; 
+		   margin-right:574px;}
+	/*对文字颜色的设置*/
+	#wen1{ color:#66CC00; 
+		   margin-top:45px;}
+	/*分割线的设置*/
+	hr{width:300px;}
+	/*文本属性的设置*/
+	#wena{ margin-left:120px; 
+	       border:1px; 
+		   width:300px;}
+	/*分割线的设置*/
+	hr{width:300px;}
+	/*文本属性的设置*/
+	#wenb{ margin-left:180px; 
+		   border:1px ; 
+		   width:300px; 
+		   float:right; 
+		   margin-right:570px; 
+		   margin-top:-261px;}
+	/*分割线的设置*/
+	hr{width:300px;}
+	/*文本属性的设置*/
+	#wencc{ margin-left:180px; 
+		    border:1px ; 
+			width:300px; 
+			float:right; 
+			margin-top:-261px; 
+			margin-right:215px;}
+
+
+
+
+
+
+
+
+/*底部*/
+#banquan{ width:100%; height:70px;}	
+/*底部背景属性的设置*/
+	#dibu{width:100%; 
+	      background-color:#1c1d24; 
+		  height:70px; 
+		  margin-top:50px;}
+	/*底部字体的设置*/
+	#dibu11{ color:#FFFFFF; 
+	         padding-top:30px; 
+			 margin-left:30px; 
+			 text-align:center;}

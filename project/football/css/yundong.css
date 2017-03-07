@@ -1,0 +1,277 @@
+body{margin:0; padding:0;}/*两边边距为0*/
+
+/*头部*/
+#header{clear:both;}/*清除浮动*/
+#header{ width:100%; height:168px;}
+		 /*顶部绿色div的设置*/
+		#div1{background-color:#b2ce22;
+			  width:100%; 
+			  height:38px;} 
+		/*顶部左边英文的设置*/
+		#div2{font-family:"新宋体"; 
+			  color:#ffffff; 
+			  margin-left:100px;
+			   margin-top:-25px;} 
+		 /*顶部右边排英文的设置*/
+		#div3{font-family:"新宋体";
+			  float:right;margin-top:-25px;
+			  margin-right:100px; color:#ffffff; 
+			  padding-top:5px;}
+		/*顶部图片的设置*/
+		#div4{margin-left:1280px; 
+			  margin-top:-18px;} 
+		/*头部导航条背景黑色部分的设置*/
+		#div5{width:100%; 
+			  height:133px;
+			  background-color:#1c1d24; 
+			  margin-top:21px;
+			  clear:both;}
+		/*搜索框的设置*/
+		#div6{ float:right; 
+			   margin-top:25px;
+			   margin-right:80px;}
+		/*搜索图标放大镜的设置*/
+		#div7{float:right;
+			  margin-top:32px;
+			  margin-right:-210px;}
+		/*英文football的设置*/
+		#div8{ font-size:60px;
+			   color:#FFFFFF; 
+			   font-family:utsaah;
+			    margin-top:-10px; 
+				margin-right:100px; 
+				padding-top:50px; 
+				margin-left:70px;}
+		
+		
+		/*导航条*/
+		
+		/*导航条的设置*/
+		#div9{float:right; 
+			  margin-right:150px;
+			  margin-top:-20px;}
+		/*a标签链接的设置*/
+		a{text-decoration:none; 
+		  color:#ffffff;}
+		/*a标签链接的设置*/
+		a:hover{color:#b2ce22;}
+		/*a标签链接的设置*/
+		a:active { font-style:italic;}
+		/*导航条间距的设置*/
+		a,b,c,d,e,f{ margin-left:15px;}
+		#cent{color:#66CC00;}
+
+
+
+
+
+
+
+
+/*足球部分*/
+#zhu_mian{ width:100%; height:2800px;}	
+	/*英文SPORTS设置*/
+	.wenzi1{ font-family:Calibri; 
+			 font-size:60px; 
+			 margin-top:85px; 
+			 margin-left:550px;}
+	
+	.wanzi2{ font-size:30px;
+			 font-family:Calibri;
+			 margin-left:180px;
+			 margin-top:70px;}	
+	
+	.yanse{ color:#b2ce22;}
+	
+	/*足球设置*/
+	.qiu1{  margin-left:480px; margin-top:-128px;}
+	.qiu2{  margin-left:480px; margin-top:90px;}
+	.qiu3{ margin-left:720px; margin-top:-356px;}
+	.qiu4{ margin-left:720px; margin-top:90px;}
+	.qiu5{  margin-left:980px; margin-top:-343px;}
+	.qiu6{  margin-left:980px; margin-top:100px;}
+	
+	/*对足球下边的字体进行设置*/
+	.zi1{font-family:Calibri; 
+		 font-size:20px; 
+		 margin-top:-205px; 
+		 margin-left:480px;}
+	
+	.zi2{font-family:Calibri; 
+		 font-size:20px; 
+		 margin-top:-30px; 
+		 margin-left:700px;}
+	
+	.zi3{font-family:Calibri; 
+		 font-size:20px; 
+		 margin-top:-30px; 
+		 margin-left:980px;}
+	
+	.zi4{font-family:Calibri; 
+		 font-size:20px; 
+		 margin-top:200px; 
+		 margin-left:480px;}
+	
+	.zi5{font-family:Calibri; 
+		 font-size:20px; 
+		 margin-top:-22px; 
+		 margin-left:720px;}
+	
+	.zi6{font-family:Calibri; 
+		 font-size:20px; 
+		 margin-top:-30px; 
+		 margin-left:980px;}
+		 
+		 
+		 
+		 
+		 
+		 
+/*主要内容*/
+	.beijing{ width:100%; 
+		      height:582px; 
+			  background-color:#1c1d24; 
+			  margin-top:102px;}
+	.biaoti{ color:#575a6f; 
+		     font-size:70px; 
+			 font-family:"Adobe 繁黑體 Std B"; 
+			 margin-top:-495px; 
+			 text-align:center;}
+	.wenzi3{ color:#FFFFFF; 
+		     font-size:20px; 
+			 letter-spacing:2px;
+			 font-family:"Adobe 繁黑體 Std B"; 
+			 margin-top:10px; 
+			 float:right; 
+			 margin-right:100px;}
+		
+		/*对两段英文进行设置*/
+	.wenzi4{ color:#FFFFFF; 
+	 		 font-size:20px;  
+			 margin-top:80px; 
+			 text-align:center;}
+	.wenzi5{ color:#FFFFFF; 
+	 	     font-size:20px; 
+			 margin-top:60px; 
+			 text-align:center;}
+			 
+			 
+			 
+			 
+
+
+
+/*对图片进行设置*/
+	.tupian1{ width:806px; 
+		      height:310px; 
+			  margin-top:180px; 
+			  margin-left:280px;}
+	.tupian2{ width:390px; 
+		      height:316px; 
+			  margin-top:80px; 
+			  margin-left:278px;}
+	.tupian3{ width:390px; 
+			  height:316px; 
+			  margin-top:-316px; 
+			  margin-left:700px;}
+	.wenzi6{ font-family:"Adobe 繁黑體 Std B"; 
+			 font-size:20px; 
+			 margin-top:-372px; 
+			 margin-left:280px;
+			 font-weight:bold;}
+	.p{ color:#b2ce22;}
+	
+	/*对图片的英文进行设置*/
+	.wenzi7{ font-family:"Adobe 繁黑體 Std B"; 
+		     font-size:20px; margin-top:344px; 
+			 margin-left:280px; 
+			 font-weight:bold;}
+	.wenzi8{ font-family:"Adobe 繁黑體 Std B"; 
+		     font-size:20px; 
+			 margin-top:-50px; 
+			 margin-left:700px; 
+			 font-weight:bold;}
+	
+
+
+
+
+
+/*主要内容2*/
+	/*对标题进行设置*/
+	.biaoti2{ color:#575a6f; 
+		      font-family:GulimChe; 
+			  font-size:80px; 
+			  text-align:center; 
+			  margin-top:-700px;}
+	
+	/*对CHROS LARSEN进行设置*/
+	.wenzi9{ color:#FFFFFF; 
+		     font-size:20px; 
+			 margin-top:60px; 
+			 margin-left:100px;
+			 font-weight:bold;
+			 font-family:"Adobe 繁黑體 Std B"; 
+			 letter-spacing:2px;}
+	 
+	 /*对2010.2011等英文添加颜色和设置*/
+	 p{ color:#b2ce22;}
+	.z1{ position:relative;
+	 	 font-size:20px;
+		 margin-top:10px; 
+		 margin-left:98px;}
+	.z2{ margin-left:98px; 
+		 margin-top:130px;
+		 font-size:20px;}
+	.z3{margin-left:98px; 
+		margin-top:80px;
+		 font-size:20px;}
+		
+		 /*对几段英文进行设置*/
+	.wenzi11{ color:#FFFFFF;
+		      font-weight:bold; 
+			  margin-top:-370px; 
+			  margin-left:140px; 
+			  font-size:20px;}
+	.wenzi12{ color:#FFFFFF; 
+		      font-weight:bold; 
+			  margin-left:140px; 
+			  margin-top:20px; 
+			  font-size:20px;}
+	.wenzi13{ color:#FFFFFF; 
+		      font-weight:bold; 
+			  margin-left:220px; 
+			  margin-top:25px; 
+			  font-size:22px;}
+		
+		/*对最后几行英文调位子*/
+	.y1{ margin-left:-38px;}
+	.y2{ margin-left:-34px; 
+		 margin-top:-2px;}
+	.y3{ margin-left:-20px;
+		 margin-top:-2px;}
+	.y4{ margin-left:-26px; 
+		 margin-top:-2px;}
+	.tupian4{ width:540px; 
+		      height:480px;
+			  margin-top:-420px; 
+			  margin-left:698px;} 
+		 
+		 
+
+
+
+
+/*底部*/
+#banquan{ width:100%; height:70px;}		
+	/*底部背景属性的设置*/
+	#dibu{width:100%; 
+		  background-color:#1c1d24; 
+		  height:70px; 
+		  margin-top:50px;}
+	
+	/*底部字体的设置*/
+	#dibu11{ color:#FFFFFF; 
+		     padding-top:30px; 
+			 margin-left:30px; 
+			 text-align:center;}

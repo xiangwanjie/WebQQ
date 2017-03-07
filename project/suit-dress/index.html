@@ -1,0 +1,468 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>女装</title>
+<link href="css/nvzhuang.css" rel="stylesheet" type="text/css" />
+<link href="css/xiaoguo.css" rel="stylesheet" type="text/css" />
+<script src="Js/move.js"></script>
+<script src="Js/index.js"></script>
+<script>
+window.onload=function(){
+	var oUl=document.getElementById('hiabao_ul');
+	var aLi=oUl.getElementsByTagName('li');
+	var timer=null;
+	var num=0;
+	
+	timer=setInterval(function(){
+		
+		for(var i=0; i<aLi.length;i++){
+			aLi[i].calssName='';
+			startMove(aLi[i],{opacity:0},function(){
+				aLi[i].style.display='none';
+			});
+		startMove(aLi[num],{display:'block',opacity:100});
+		}
+		num++;
+		if(num > aLi.length-1) num=0;
+		
+	},5000);
+		
+};
+</script>
+</head>
+
+<body>
+	<div class="main">
+    	<!--top起始-->
+		<div class="top">
+			
+            <div class="logo">
+            	<img class="logo_img" src="img/logo.png"  width="220" height="55"/>
+                <p class="logo_wenzi">追求生活·品质生活</p>
+            </div>
+            
+            <div class="sousuo">
+            	<form method="post" action="#">
+                	<input class="text" type="text" value="淑女风" />
+                    <input class="fdj" type="image" src="img/fdj.png" />
+                </form>
+              	<a class="sou_wenzi" href="#">雪纺衫</a>
+                <a class="sou_wenzi" href="#">连衣裙</a>
+                <a class="sou_wenzi" href="#">套装裙</a>
+                <a class="sou_wenzi" href="#">连体衣</a>
+            </div>
+             <a href="#"><img class="gouwuc" src="img/gouwuc.png" width="159" height="36" /></a>
+  		</div>
+            <!--top结束-->
+            
+            <div class="float"></div>
+            
+            <!--nav起始-->
+   	  <div class="nav">
+      	  <div class="cheng"></div>
+          <ul class="nav_ul">
+                 <li class="nav_li"><a class="nav_a" href="#">首页</a></li>
+                 <li class="nav_li"><a class="nav_a" href="#">所有宝贝</a>
+                 	<ul class="nav_ziul">
+                         <li class="nav_zili"><a class="nav_zia" href="#">所有宝贝</a></li>
+                         <li class="nav_zili"><a class="nav_zia" href="#">所有宝贝</a></li>
+                         <li class="nav_zili"><a class="nav_zia" href="#">所有宝贝</a></li>
+                         <li class="nav_zili"><a class="nav_zia" href="#">所有宝贝</a></li>
+                     </ul>
+                 </li>
+                 <li class="nav_li"><a class="nav_a" href="#">秋冬热卖</a>
+                 	<ul class="nav_ziul">
+                         <li class="nav_zili"><a class="nav_zia" href="#">秋冬热卖</a></li>
+                         <li class="nav_zili"><a class="nav_zia" href="#">秋冬热卖</a></li>
+                         <li class="nav_zili"><a class="nav_zia" href="#">秋冬热卖</a></li>
+                         <li class="nav_zili"><a class="nav_zia" href="#">秋冬热卖</a></li>
+                     </ul>
+                 </li>
+                 <li class="nav_li"><a class="nav_a" href="#">每周上新</a>
+                 	<ul class="nav_ziul">
+                         <li class="nav_zili"><a class="nav_zia" href="#">每周上新</a></li>
+                         <li class="nav_zili"><a class="nav_zia" href="#">每周上新</a></li>
+                         <li class="nav_zili"><a class="nav_zia" href="#">每周上新</a></li>
+                         <li class="nav_zili"><a class="nav_zia" href="#">每周上新</a></li>
+                     </ul>
+                 </li>
+                 <li class="nav_li"><a class="nav_a" href="#">衬衫</a>
+                 	<ul class="nav_ziul">
+                         <li class="nav_zili"><a class="nav_zia" href="#">衬衫</a></li>
+                         <li class="nav_zili"><a class="nav_zia" href="#">衬衫</a></li>
+                         <li class="nav_zili"><a class="nav_zia" href="#">衬衫</a></li>
+                         <li class="nav_zili"><a class="nav_zia" href="#">衬衫</a></li>
+                     </ul>
+                 </li>
+                 <li class="nav_li"><a class="nav_a" href="#">T恤</a>
+                 	<ul class="nav_ziul">
+                         <li class="nav_zili"><a class="nav_zia" href="#">T恤</a></li>
+                         <li class="nav_zili"><a class="nav_zia" href="#">T恤</a></li>
+                         <li class="nav_zili"><a class="nav_zia" href="#">T恤</a></li>
+                         <li class="nav_zili"><a class="nav_zia" href="#">T恤</a></li>
+                     </ul>
+                 </li>
+                 <li class="nav_li"><a class="nav_a" href="#">购物须知</a>
+                 	<ul class="nav_ziul">
+                         <li class="nav_zili"><a class="nav_zia" href="#">购物须知</a></li>
+                         <li class="nav_zili"><a class="nav_zia" href="#">购物须知</a></li>
+                         <li class="nav_zili"><a class="nav_zia" href="#">购物须知</a></li>
+                         <li class="nav_zili"><a class="nav_zia" href="#">购物须知</a></li>
+                     </ul>
+                 </li>
+                 <li class="nav_li"><a class="nav_a" href="#">会员中心</a>
+                	 <ul class="nav_ziul">
+                         <li class="nav_zili"><a class="nav_zia" href="#">会员中心</a></li>
+                         <li class="nav_zili"><a class="nav_zia" href="#">会员中心</a></li>
+                         <li class="nav_zili"><a class="nav_zia" href="#">会员中心</a></li>
+                         <li class="nav_zili"><a class="nav_zia" href="#">会员中心</a></li>
+                     </ul>
+                 </li>
+          </ul>
+      </div>
+            <!--nav结束-->
+           <div class="float"></div>
+         <!--海报起始-->
+         	<div id="haibao">
+            	 <div class="list">
+        			<ul id="hiabao_ul">
+                        <li><img src="img/1.jpg" width="1349" height="450"></li>
+                        <li><img src="img/2.jpg" width="1349" height="450"/></li>
+        			</ul>
+   				 </div>
+            </div>
+         <!--海报起始-->
+         
+		<div class="float"></div>
+        
+        <!--center起始-->
+        <div class="center">
+            <div class="cnenter_top">
+                <div class="cen_top">
+                    <div class=" cen_nuan">
+                        <img src="img/luandong.png" width="300" height="49" />
+                        2015 HOT SALE
+                    </div>
+                </div>
+                
+                <div class="cen_yi">
+                    <img class="cenyi_tupian" src="img/01.gif" width="226" height="296" />
+                    <img class="cenyi_tupian" src="img/02.gif" width="226" height="296" />
+                    <img class="cenyi_tupian" src="img/03.gif" width="226" height="296" />
+                    <img class="cenyi_tupian" src="img/04.gif" width="226" height="296" />
+                    <img class="cenyi_tupian" src="img/05.gif" width="226" height="296" />
+                    <img class="cenyi_tupian" src="img/06.gif" width="226" height="296" />
+                    <img class="cenyi_tupian" src="img/07.gif" width="226" height="296" />
+                    <img class="cenyi_tupian" src="img/08.gif" width="226" height="296" />
+                </div>
+                <!--效果部分起始-->
+                
+                    <div class="yi">
+                        <div class="biankuang" ><a href="#">查看更多</a></div>
+                        <div class="jiage">
+                              <div class="xianshi">
+                                     棉麻加绒加厚衬<br />
+                                    RMB&nbsp;98.00
+                              </div>
+                        </div>
+                    </div>
+                    
+                    <div class="er">
+                        <div class="biankuang" ><a href="#">查看更多</a></div>
+                        <div class="jiage">
+                              <div class="xianshi">
+                                     棉麻加绒加厚衬<br />
+                                    RMB&nbsp;98.00
+                              </div>
+                        </div>
+                    </div>
+                    
+                     <div class="san">
+                        <div class="biankuang" ><a href="#">查看更多</a></div>
+                        <div class="jiage">
+                              <div class="xianshi">
+                                     棉麻加绒加厚衬<br />
+                                    RMB&nbsp;98.00
+                              </div>
+                        </div>
+                    </div>
+                    
+                    <div class="si">
+                        <div class="biankuang" ><a href="#">查看更多</a></div>
+                        <div class="jiage">
+                              <div class="xianshi">
+                                     棉麻加绒加厚衬<br />
+                                    RMB&nbsp;98.00
+                              </div>
+                        </div>
+                    </div>
+                    
+                     <div class="wu">
+                        <div class="biankuang" ><a href="#">查看更多</a></div>
+                        <div class="jiage">
+                              <div class="xianshi">
+                                     棉麻加绒加厚衬<br />
+                                    RMB&nbsp;98.00
+                              </div>
+                        </div>
+                    </div>
+                    
+                     <div class="liu">
+                        <div class="biankuang" ><a href="#">查看更多</a></div>
+                        <div class="jiage">
+                              <div class="xianshi">
+                                     棉麻加绒加厚衬<br />
+                                    RMB&nbsp;98.00
+                              </div>
+                        </div>
+                    </div>
+                    
+                     <div class="qi">
+                        <div class="biankuang" ><a href="#">查看更多</a></div>
+                        <div class="jiage">
+                              <div class="xianshi">
+                                     棉麻加绒加厚衬<br />
+                                    RMB&nbsp;98.00
+                              </div>
+                        </div>
+                    </div>
+                    
+                    <div class="ba">
+                        <div class="biankuang" ><a href="#">查看更多</a></div>
+                        <div class="jiage">
+                              <div class="xianshi">
+                                     棉麻加绒加厚衬<br />
+                                    RMB&nbsp;98.00
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            <!--效果部分结束-->
+            
+            <div class="float"></div>
+            
+            <!--cen_er起始-->
+         	<div class="cen_er">
+            	<div class="cener_tupian"><img src="img/tu.png" width="238" height="245" /></div> 
+                <hr class="fenge" /><span class="caoliu" style=" font-family:幼圆">潮流百搭一时尚一流行范</span><hr class="fenge2" />
+            </div>
+            <!--cen_er结束-->
+            
+             <!--san起始-->
+            <div class="cen_san">
+            	<div class="censan_left">
+                	<div class="cleft_top">
+                    	<img class="cltop_left" src="img/10.gif" width="188" height="386" />
+                        <div class="cltop_right">
+                        	<div class="cltri_top">
+                            	<img src="img/13.gif" width="142" height="155" />
+                                <span>小巫石提花45%棉花织衫<a class="a1" href="#">点击查看>></a></span>
+                            </div>
+                            <div class="cltri_bottom">
+                            	<img src="img/15.gif" width="142" height="144" />
+                               破洞毛边风格型牛仔短裤<a class="a1" href="#">点击查看>></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cleft_bottmo">
+                    	<img src="img/16.gif" width="234" height="128" />
+                        <span class="jg">RMB 126.00</span><p class="p1">系带拼色底帆布鞋</p>
+                    </div>
+                </div>
+                
+                <div class="censan_cen">
+                	<img src="img/11.gif" width="284" height="559" />
+                    <p class="scen_wenzi1">百搭衬衣+瘦腰长裙</p><span class="scen_wenzi2">RMB 269.00</span>
+                </div>
+                
+                <div class="censan_right">
+                	<div class="cleft_top">
+                    	<img class="cltop_left" src="img/12.gif" width="188" height="386" />
+                        <div class="cltop_right">
+                        	<div class="cltri_top">
+                            	<img src="img/09.gif" width="142" height="155" />
+                                <span>小巫石提花45%棉花织衫<a class="a1" href="#">点击查看>></a></span>
+                            </div>
+                            <div class="cltri_bottom">
+                            	<img src="img/14.gif" width="142" height="144" />
+                               破洞毛边风格型牛仔短裤<a class="a1" href="#">点击查看>></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cleft_bottmo">
+                    	<div class="cb_legt"><p class="jg">RMB 189.00</p><p class="p1">PROPOSITION</p></div>
+                    	<img class="cb_img" src="img/17.gif" width="224" height="118" />
+                        
+                    </div>
+                </div>
+            </div>
+            <!--san结束-->
+            
+            <!--si起始-->
+            	<div class="cen_si">
+                	<div class="cener_tupian"><img src="img/16.png" width="238" height="245" /></div> 
+                	<hr class="fenge" /><span class="caoliu" style=" font-family:幼圆">潮流百搭一时尚一流行范</span><hr class="fenge2" />
+                </div>
+            <!--si结束-->
+            
+             <!--si起始-->
+            	<div class="cen_wu">
+                	<div class="cwu_left">
+                    	<div class="tpxiaoguo"> 
+                            <img src="img/19.gif" width="329" height="535" />
+                        </div>
+                    	<p class="cleft_mc">宽条纹无袖连衣裙</p>
+                        <p class="cleft_jiage">RMB 168.00</p>
+                    </div>
+                    <div class="cwu_right">
+							<div class="cwu_wai"><div class="cwu_tupian"><img src="img/20.gif" width="198" height="266" /></div><p class="cuw_mc">宽条纹无袖连衣裙</p><p class="cuw_jiage">RMB 160.00</p></div>
+                           <div class="cwu_wai"><div class="cwu_tupian"><img src="img/21.gif" width="198" height="266" /></div><p class="cuw_mc">提花波点连衣裙</p><p class="cuw_jiage">RMB 129.00</p></div>
+                            <div class="cwu_wai"><div class="cwu_tupian"><img src="img/18.gif" width="198" height="266" /></div><p class="cuw_mc">小清新条纹连衣裙</p><p class="cuw_jiage">RMB 102.00</p></div>
+                           <div class="cwu_wai"><div class="cwu_tupian"><img src="img/22.gif" width="198" height="266" /></div><p class="cuw_mc">波浪大圈摆下身裙</p><p class="cuw_jiage">RMB 160.00</p></div>
+                           <div class="cwu_wai"><div class="cwu_tupian"><img src="img/23.gif" width="198" height="266" /></div><p class="cuw_mc">小清新条纹连衣裙</p><p class="cuw_jiage">RMB 102.00</p></div>
+                            <div class="cwu_wai"><div class="cwu_tupian"><img src="img/24.gif" width="198" height="266" /></div><p class="cuw_mc">娃娃领短袖上衣</p><p class="cuw_jiage">RMB 105.00</p></div>
+                        </ul>
+                    </div>
+                </div>
+            <!--si结束-->
+        </div>
+        <!--center结束-->
+        
+		<!--bottom起始-->
+		<div class="bottom">
+        	<!--bottom_top起始-->
+        	<div class="bottom_top">
+            
+            	<div class="btop_top">△GO TOP</div>
+           
+                <div class="btop_center">
+                	<ul>
+                    	<li><a href="#">返回首页
+                    	  <p>HOME</p></a>
+                    	</li>
+                        <li><a href="#">新品上市
+                          <p>NEWIN</p></a>
+                        </li>
+                        <li><a href="#">所有宝贝
+                          <p>ALLTEMS</p></a>
+                        </li>
+                        <li><a href="#">热卖推荐
+                          <p>HOTSALE</p></a>
+                        </li>
+                        <li><a href="#">收藏店铺
+                          <p>FAVORITE</p></a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="btop_bottom">
+                	<div class="botop_tu">
+                    	<img src="img/001.gif" width="84" height="85" />
+                        <p class="biaoti">正品保证</p>
+                        百分之百正品，假一赔三。
+                    </div>
+               		<div class="botop_tu">
+                   		<img src="img/002.gif" width="84" height="85" />
+                          <p class="biaoti">实物拍摄</p>
+                         我们有自己的拍摄团队，商店货品均为实物拍摄。
+                    </div>
+                    <div class="botop_tu">
+                    	<img src="img/003.gif" width="84" height="85" />
+                          <p class="biaoti">迅速发货</p>
+                        我们有专门的发货员，保证货物闪电发送。
+                    </div>
+                    <div class="botop_tu">
+                    	<img src="img/004.gif" width="84" height="85" />
+                           <p class="biaoti">热枕服务</p>
+                           感性亲们对我们的支持，我们会竭尽全力，让你享受愉快的购物。
+                    </div>
+           		</div>
+            </div>
+            <!--bottom_top结束-->
+            
+            <!--bottom_center起始-->
+			<div class="bottom_center">
+                    <div class="bcen_top">
+                        <div class="bcen_tu">
+                            <img src="img/101.gif" width="53" height="52" />
+                            <p class="biaoti">&nbsp;&nbsp;品质保障</p>
+                            <p class="biaoti2">&nbsp;&nbsp;品质护航 购物无忧</p>
+                        </div>
+                        <div class="bcen_tu">
+                            <img src="img/102.gif"  width="53" height="52" />
+                              <p class="biaoti">&nbsp;&nbsp;七天无理由退换货</p>
+                            <p class="biaoti2">&nbsp;&nbsp;为您铁锅后无忧保障</p>
+                        </div>
+                        <div class="bcen_tu">
+                            <img src="img/103.gif" width="53" height="52" />
+                              <p class="biaoti">&nbsp;&nbsp;特色服务体验</p>
+                            <p class="biaoti2">&nbsp;&nbsp;为您呈现不一样的服务</p>
+                        </div>
+                        <div class="bcen_tu2">
+                            <img src="img/104.gif"  width="53" height="52" />
+                               <p class="biaoti">&nbsp;&nbsp;帮助中心</p>
+                               <p class="biaoti2">&nbsp;&nbsp;您的购物指南</p>
+                     	</div>
+                     </div>
+             </div>
+           <!--bottom_center结束-->
+           
+           <!--bottom_bottom起始-->
+           	<div class="bot_bottom">
+           	  <div class="bbttom_nav">
+                	<ul class="bbt_ul">
+                    	<li class="bbt_li"><a class="a1" href="#">购物指南 </a>
+                        	<ul >
+                            	<li><a class="a2" href="#">免费注册</a></li>
+                                <li><a class="a2" href="#">开通支付宝</a></li>
+                                <li><a class="a2" href="#">支付宝充值</a></li>
+                            </ul>
+                        </li>
+                        <li class="bbt_li"><a class="a1" href="#">天猫保障</a>
+                        	<ul >
+                            	<li><a class="a2" href="#">发票保障</a></li>
+                                <li><a class="a2" href="#">售后规则</a></li>
+                                <li><a class="a2" href="#">缺货赠付</a></li>
+                            </ul>
+                        </li>
+                        <li class="bbt_li"><a class="a1" href="#">支付方式</a>
+                        	<ul >
+                            	<li><a class="a2" href="#">快捷支付</a></li>
+                                <li><a class="a2" href="#">行用卡</a></li>
+                                <li><a class="a2" href="#">余额宝</a></li>
+                                <li><a class="a2" href="#">蚂蚁花呗</a></li>
+                                <li><a class="a2" href="#">货代付款</a></li>
+                            </ul>
+                        </li>
+                        <li class="bbt_li"><a class="a1" href="#">商家服务</a>
+                        	<ul >
+                            	<li><a class="a2" href="#">商家入驻</a></li>
+                                <li><a class="a2" href="#">商家中心</a></li>
+                                <li><a class="a2" href="#">天猫智库</a></li>
+                                <li><a class="a2" href="#">天猫规则</a></li>
+                                <li><a class="a2" href="#">物流服务</a></li>
+                                <li><a class="a2" href="#">妙言妙语</a></li>
+                                <li><a class="a2" href="#">运营服务</a></li>
+                            </ul>
+                        </li>
+                  </ul>
+              </div>
+              <img class="erweima" src="img/erweima.jpg" width="120" height="120" />
+            </div>
+           <!--bottom_center结束-->
+        </div>
+        <!--bottom结束-->
+        
+        <!--版权起始-->
+        <div class="banquan">
+        	<div class="bq_wenzi">
+                <p>增值电信业务经营许可证：浙B2-20110446网络文化经营许可证：</p>
+                <p>浙网文[2015]0295-065号互联网医疗保健信息服务 审核同意书 浙卫网审【2014】6号</p>
+                <p>互联网药品信息服务资质证书编号：浙-（经营性）-2012-0005  2003-2015 TMALL.COM 版权所有</p>
+            </div>
+        </div>
+        <!--版权结束-->
+	</div>
+</body>
+</html>

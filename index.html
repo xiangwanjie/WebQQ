@@ -1,0 +1,404 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>WebQQ</title>
+<link rel="shortcut icon" href="images/ico/favicon.ico">
+<link href="css/index_css.css" type="text/css" rel="stylesheet" />
+<script src="js/move.js"></script>
+<script src="js/index_js.js"></script>
+</head>
+
+<body>
+<div class="mian">
+	<!--左边菜单【起始】-->
+	<div class="left_box" id="left_box">
+		<ul class="left_box_clear" id="left_app">
+			<li><a class="list_a" href="#"><img src="images/big0.png" width="100%" height="100%" alt="" /></a></li>
+			<li title="微云网盘"><a class="list_a" href="#"><img src="images/big1.png" width="100%" height="100%" alt="" /></a></li>
+			<li title="QQ"><a class="list_a" href="#"><img src="images/big2.png" width="100%" height="100%" alt="" /></a></li>
+			<li title="QQ空间"><a class="list_a" href="#"><img src="images/big3.png" width="100%" height="100%" alt="" /></a></li>
+			<li title="QQ邮箱"><a class="list_a" href="#"><img src="images/big4.png" width="100%" height="100%" alt="" /></a></li>
+			<li title="腾讯微博"><a class="list_a" href="#"><img src="images/big5.png" width="100%" height="100%" alt="" /></a></li>
+		</ul>
+		
+		<div class="left_box_div abs">
+			<ul class="clear">
+				<li><a href="#" class="menu1"></a></li>
+				<li><a href="#" class="menu2"></a></li>
+				<li><a href="#" class="menu3"></a></li>
+				<li id="menu_focus4"><a href="#" class="menu4"></a></li>
+			</ul>
+			<div class="menu_div"><a href="#" class="menu5"></a></div>
+		</div>	
+		
+	</div>
+	<!--左边菜单【结束】-->
+	
+	<!--换皮肤【起始】-->
+	<div class="web_bj">
+		<img id="bj_img" src="images/bg2.jpg" alt="" class="bj" />
+	</div>
+    <!--换肤窗体-->
+    <div class="web_bj_win abs" id="web_bj_win">
+    	<div class="bj_win_title"><a href="#" class="bj_win_close" id="bj_win_close"></a></div>
+    	<ul class="bj_win_ul float" id="bj_win_ul">
+        	<li>
+            	<a href="#">
+                	<i><img src="images/bg1.jpg" /></i>
+                    <p>茫茫野草</p>
+                </a>
+            </li>
+            <li>
+            	<a href="#">
+                	<i><img src="images/bg2.jpg" /></i>
+                    <p>蒲英之梦</p>
+                </a>
+            </li>
+            <li>
+            	<a href="#">
+                	<i><img src="images/bg3.jpg" /></i>
+                    <p>梦想天际</p>
+                </a>
+            </li>
+            <li>
+            	<a href="#">
+                	<i><img src="images/bg4.jpg" /></i>
+                    <p>仰望苍穹</p>
+                </a>
+            </li>
+            <li>
+            	<a href="#">
+                	<i><img src="images/bg5.jpg" /></i>
+                    <p>水梦年华</p>
+                </a>
+            </li>
+            <li>
+            	<a href="#">
+                	<i><img src="images/bg6.jpg" /></i><br />
+                    <p>空灵蓝调</p>
+                </a>
+            </li>
+        </ul>
+    </div>    
+	<!--换皮肤【结束】-->
+	
+	<!--web_top_cn起始-->
+	<div  class="web_top_cn abs">
+		<div class="head_portrait">
+			<a class="head_portrait_a" href="#" title="xiaojie"><img src="images/avatar.png" width="100%" height="100%" alt="" /></a>
+		</div>
+		<ul class="web_top_focus float" id="web_top_focus">
+			<li class="active"><a href="#">1</a></li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+			<li><a href="#">4</a></li>
+			<li><a href="#">5</a></li>
+		</ul>
+		<div class="web_top_fl">
+			<a href="#" class="web_top_fl_a1"></a>
+			<a href="#" class="web_top_fl_a2"></a>
+		</div>		
+	</div>
+	<!--web_top_cn结束-->
+	
+	<!--天气【起始】-->
+	<div class="web_weather abs" id="web_weather">
+		<div class="wea_close" id="wea_close"><a class="wea_close_a" title="关闭" href="#"><img src="images/close.png" width="21" height="21" alt="" /></a></div>
+		<div class="wea_main">
+			<p class="p_now"><b>今天：</b>多云17℃～31℃</p>
+			<p class="p_tomorrow"><b>明天：</b>多云转阴17℃～28℃</p>
+			<p class="p_site">贵阳</p>
+			<p class="p_time" id="time"></p>
+		</div>		
+	</div>	
+	<!--天气【起始】-->
+	
+	<!--个人信息【起始】-->	
+	<div class="web_show abs" id="web_show">
+			<a href="#" title="个人信息"><img src="images/fast_nav.png" width="72" height="72" alt="" /></a>
+	</div>
+	<div class="web_resume abs" id="web_resume">
+		<div class="web_message abs" id="personal">
+			<a href="#" title="个人信息"><img src="images/fast_nav.png" width="72" height="72" alt="" /></a>
+		</div>
+		<span class="web_resume_close abs" id="web_resume_close"></span>
+		<div class="web_resume01" id="web_resume01">
+			<h3 class="show_title1">向万杰</h3>
+			<ul>
+				<li>男 |  22岁（1994年11月17日）</li>
+				<li>居住地：上海</li>
+				<li>电　话：1508908278（手机）</li>
+				<li>E-mail:xwj8806@163.com</li>
+			</ul>
+		</div>
+		<div class="web_resume02" id="web_resume02">
+			<h3 class="show_title2">教育背景</h3>
+			<ul>
+				<li>2014.9~至今：贵阳职业技术学院</li>
+				<li>2015.11 获国家一等奖学金</li>
+				<li>2016.4 获国家励志奖学金</li>
+			</ul>
+		</div>
+		<div class="web_resume03" id="web_resume03">
+			
+			<ul>
+				<li>1.了解bootstrap开发框架</li>
+				<li>2.熟悉使用jQuery常用插件</li>
+				<li>3.能熟练使用Photoshop进行图像处理和切图</li>
+				<li>4.熟练jQuery、HTML5+CSS3、HTML+CSS布局</li>
+				<li>5.熟练书写原生javascript脚本,实现JS效果研发需求</li>
+			</ul>
+			<h3 class="show_title3">专业技能</h3>
+		</div>
+		<div class="web_resume04" id="web_resume04">
+			<ul>
+				<li>班级以公司化进行管理</li>
+				<li>大一：担任学习委员</li>
+				<li>大二：担任技术总监、兼项目小组长、</li>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;兼学习委员</li>
+				<li></li>
+			</ul>
+			<h3 class="show_title4">工作经历</h3>
+		</div>
+	</div>
+	<!--个人信息【结束】-->
+	
+	<!--桌面APP【起始】-->
+	<div class="web_app_div abs" id="web_app_div">
+		<ul>
+			<li title="欢乐斗地主">
+				<a href="#">
+					<i><img src="images/d_big_11.png" width="100%" height="100%" /></i><br />
+					<span>欢乐斗地主</span>
+				</a>
+			</li>
+			<li title="3366">
+				<a href="#">
+					<i><img src="images/d_big_12.png" width="100%" height="100%" /></i><br />
+					<span>3366</span>
+				</a>
+			</li>
+			<li title="QQ宝贝">
+				<a href="#">
+					<i><img src="images/d_big_13.png" width="100%" height="100%" /></i><br />
+					<span>QQ宝贝</span>
+				</a>
+			</li>
+			<li title="css作品1">
+				<a href="#">
+					<i><img src="images/zx.png" width="100%" height="100%" /></i><br />
+					<span>css作品1</span>
+				</a>
+			</li>
+			<li title="css作品2">
+				<a href="#">
+					<i><img src="images/zx.png" width="100%" height="100%" /></i><br />
+					<span>css作品2</span>
+				</a>
+			</li>
+			<li title="文档说明">
+				<a href="#">
+					<i><img src="images/zx.png" width="100%" height="100%" /></i><br />
+					<span>文档说明</span>
+				</a>
+			</li>
+			
+		</ul>
+		
+		<ul>
+			<li title="芒果乐游">
+				<a href="#">
+					<i><img src="images/d_big_21.png" width="100%" height="100%" /></i><br />
+					<span>芒果乐游</span>
+				</a>
+			</li>
+			<li title="团购地图">
+				<a href="#">
+					<i><img src="images/d_big_22.png" width="100%" height="100%" /></i><br />
+					<span>团购地图</span>
+				</a>
+			</li>
+			<li title="快递查询">
+				<a href="#">
+					<i><img src="images/d_big_23.png" width="100%" height="100%" /></i><br />
+					<span>快递查询</span>
+				</a>
+			</li>
+			<li title="便签">
+				<a href="#">
+					<i><img src="images/d_big_24.png" width="100%" height="100%" /></i><br />
+					<span>便签</span>
+				</a>
+			</li>
+			<li title="网络硬盘">
+				<a href="#">
+					<i><img src="images/big1.png" width="100%" height="100%" /></i><br />
+					<span>网络硬盘</span>
+				</a>
+			</li>
+		</ul>
+		
+		<ul>
+			<li title="百度云盘">
+				<a href="#">
+					<i><img src="images/big01.png" width="100%" height="100%" /></i><br />
+					<span>百度云盘</span>
+				</a>
+			</li>
+			<li title="浏览网页">
+				<a href="#">
+					<i><img src="images/big02.png" width="100%" height="100%" /></i><br />
+					<span>浏览网页</span>
+				</a>
+			</li>
+			<li title="爱奇艺">
+				<a href="#">
+					<i><img src="images/big03.png" width="100%" height="100%" /></i><br />
+					<span>爱奇艺</span>
+				</a>
+			</li>
+			<li title="搜狗地图">
+				<a href="#">
+					<i><img src="images/big04.png" width="100%" height="100%" /></i><br />
+					<span>搜狗地图</span>
+				</a>
+			</li>
+			<li title="hello">
+				<a href="#">
+					<i><img src="images/big05.png" width="100%" height="100%" /></i><br />
+					<span>hello</span>
+				</a>
+			</li>
+			<li title="666">
+				<a href="#">
+					<i><img src="images/big06.png" width="100%" height="100%" /></i><br />
+					<span>666</span>
+				</a>
+			</li>
+		</ul>
+		
+		<ul>
+			<li title="起点中文">
+				<a href="#">
+					<i><img src="images/d_big_41.png" width="100%" height="100%" /></i><br />
+					<span>起点中文</span>
+				</a>
+			</li>
+			<li title="QQ阅读">
+				<a href="#">
+					<i><img src="images/d_big_42.png" width="100%" height="100%" /></i><br />
+					<span>QQ阅读</span>
+				</a>
+			</li>
+			<li title="音乐盒子">
+				<a href="#">
+					<i><img src="images/d_big_43.png" width="100%" height="100%" /></i><br />
+					<span>音乐盒子</span>
+				</a>
+			</li>
+			<li title="腾讯视频">
+				<a href="#">
+					<i><img src="images/d_big_44.png" width="100%" height="100%" /></i><br />
+					<span>腾讯视频</span>
+				</a>
+			</li>
+			<li title="乐视网">
+				<a href="#">
+					<i><img src="images/d_big_45.png" width="100%" height="100%" /></i><br />
+					<span>乐视网</span>
+				</a>
+			</li>
+		</ul>
+		
+		<ul>
+			<li title="朋友网">
+				<a href="#">
+					<i><img src="images/d_big_51.png" width="100%" height="100%" /></i><br />
+					<span>朋友网</span>
+				</a>
+			</li>
+			<li title="QQ阅读">
+				<a href="#">
+					<i><img src="images/d_big_52.png" width="100%" height="100%" /></i><br />
+					<span>QQ阅读</span>
+				</a>
+			</li>
+			<li title="好友管理">
+				<a href="#">
+					<i><img src="images/d_big_53.png" width="100%" height="100%" /></i><br />
+					<span>好友管理</span>
+				</a>
+			</li>
+			<li title="开开">
+				<a href="#">
+					<i><img src="images/d_big_54.png" width="100%" height="100%" /></i><br />
+					<span>开开</span>
+				</a>
+			</li>
+			<li title="开心交友">
+				<a href="#">
+					<i><img src="images/d_big_55.png" width="100%" height="100%" /></i><br />
+					<span>开心交友</span>
+				</a>
+			</li>
+		</ul>
+		
+	</div>	
+	<!--桌面APP【结束】-->
+    
+    <!--右键菜单【起始】-->
+    <div class="web_right_menu abs" id="web_right_menu">
+    	<ul class="right_menu float">
+        	<li><a href="#">显示桌面</a></li>
+            <li class="bottom_border"><a href="#">刷新</a></li>
+            <li><a href="#">排序方式<i></i></a>
+				<ul class="sort_but">
+					<li id="crosswise_but"><a href="#">横向</a></li>
+					<li id="lengthways_but"><a href="#">纵向</a></li>
+				</ul>
+			</li>
+            <li class="bottom_border"><a href="#">上传文件</a></li>
+            <li class="bottom_border" id="theme"><a href="#">主题设置</a></li>
+            <li><a href="#">系统设置</a></li>
+            <li class="bottom_border"><a href="#">图标设置<!--<span></span>--></a>
+				<!--<ul class="icon_but">
+					<li><a href="#">小图标</a></li>
+					<li><a href="#">大图标</a></li>
+					<li><a href="#">超大图标</a></li>
+				</ul>-->
+			</li>
+            <li><a href="#">反馈</a></li>
+            <li><a href="#">注销</a></li>
+        </ul>
+    </div>
+    <!--右键菜单【结束】-->
+	
+	<!--窗体【起始】-->
+	<div class="web_content_win abs" id="web_content_win">
+		<div class="web_content_title">
+			<p id="content_title">标题</p>
+			<div class="web_content_btn" id="web_content_btn">
+				<a href="#" class="minimize"></a>
+				<a href="#" class="maximize"></a>
+				<a href="#" class="close"></a>
+			</div>
+		</div>
+		<div class="web_content_box">
+			<iframe src=""></iframe>
+		</div>		
+	</div>
+	<!--窗体【结束】-->
+	
+	<!--audio起始-->
+	<div class="music_box abs" id="music_box">
+		<a href="#" class="up" id="up">上一曲</a>
+		<div id="audio-btn" class="off" title="">
+			<audio id="media" src="music/许巍 - 曾经的你.mp3" preload="preload"></audio>
+		</div>
+		<a href="#" class="down" id="down">下一曲</a>
+	</div>
+	<!--audio结束-->
+</div>
+</body>
+</html>

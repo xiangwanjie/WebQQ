@@ -1,0 +1,121 @@
+body{margin:0; padding:0;}/*两边边距为0*/
+
+/*头部*/
+#header{clear:both;}/*清除浮动*/
+#header{ width:100%; height:168px;}
+		 /*顶部绿色div的设置*/	
+		#div1{background-color:#b2ce22;
+			  width:100%; 
+			  height:38px;}  
+		 /*顶部左边英文的设置*/
+		#div2{font-family:"新宋体";
+			  color:#ffffff; 
+			  margin-left:100px;
+			   margin-top:-25px;}
+		/*顶部右边排英文的设置*/
+		#div3{font-family:"新宋体";
+			  float:right;
+			  margin-top:-25px;
+			  margin-right:100px;
+			  color:#ffffff;
+			  padding-top:5px;} 
+		/*顶部图片的设置*/
+		#div4{margin-left:1280px;
+		      margin-top:-18px;} 
+		/*头部导航条背景黑色部分的设置*/
+		#div5{width:100%;
+			  height:133px;
+			  background-color:#1c1d24;
+			  margin-top:21px;
+			  clear:both;}
+		/*搜索框的设置*/
+		#div6{ float:right; 
+		       margin-top:25px;
+			   margin-right:80px;}
+		/*搜索图标放大镜的设置*/
+		#div7{float:right;
+			  margin-top:32px;
+			  margin-right:-210px;}
+		
+		/*英文football的设置*/
+		#div8{ font-size:60px;
+			   color:#FFFFFF; 
+			   font-family:utsaah;
+			   margin-top:-10px; 
+			   margin-right:100px; 
+			   padding-top:50px;
+			   margin-left:70px;}
+		
+		/*导航条的设置*/
+		#div9{float:right;
+		      margin-right:150px;
+			  margin-top:-20px;}
+		/*a标签链接的设置*/
+		a{text-decoration:none; 
+		  color:#ffffff;}
+		/*a标签链接的设置*/
+		a:hover{color:#b2ce22;}
+		/*a标签链接的设置*/
+		a:active { font-style:italic;}
+		/*导航条间距的设置*/
+		a,b,c,d,e,f{ margin-left:15px;}
+		#cent{color:#66CC00;}
+
+
+
+
+/*主要内容*/
+#zhu{ width:100%; height:1210px;}
+	/*字体的设置*/
+	#div10{ font-size:65px;
+	        text-align:center;
+			font-family:Calibri;
+			font-weight:bold;
+			margin-top:43px;}
+	/*div的属性设置*/
+	#div11{margin-top:40px;}
+	/*图片属性的设置*/
+	#aaa{padding-left:155px;
+	     float:left;}
+	/*图片属性的设置*/
+	#bbb{float:right;
+	     padding-right:220px;}
+	/*图片属性的设置*/
+	#ccc{padding-left:150px;
+	     padding-top:40px;
+		 float:left;}
+	/*图片属性的设置*/
+	#ddd{float:left; 
+	     padding-top:40px; 
+		 padding-left:50px;}
+	/*图片属性的设置*/
+	#eee{padding-left:150px; 
+	     float:left; 
+		 padding-top:40px;}
+	/*图片属性的设置*/
+	#fff{padding-left:60px; 
+	     float:left; 
+		 padding-top:40px;}
+	/*按钮属性的设置*/
+	#tijiao{width:160px; 
+	        height:50px; 
+			color:#ffffff;  
+			background-color:#b2ce22; 
+			font-size:24px;
+			margin-top:50px; 
+			margin-left:600px;}
+	
+	
+	
+/*底部*/	
+#banquan{ width:100%; height:70px;}	
+	/*底部背景属性的设置*/
+	#dibu{width:100%; 
+	      background-color:#1c1d24; 
+		  height:70px; 
+		  margin-top:50px;}
+	/*底部字体的设置*/
+	#dibu11{ color:#FFFFFF; 
+	         padding-top:30px; 
+			 margin-left:30px; 
+			 text-align:center;}

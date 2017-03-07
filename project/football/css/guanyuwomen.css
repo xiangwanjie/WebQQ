@@ -1,0 +1,205 @@
+body{margin:0; padding:0;}/*两边边距为0*/
+	
+	/*头部*/
+#header{clear:both;}/*清除浮动*/
+#header{ width:100%; height:168px;}
+		 /*顶部绿色div的设置*/
+		#div1{background-color:#b2ce22;
+			  width:100%; 
+			  height:38px;} 
+		/*顶部左边英文的设置*/
+		#div2{font-family:"新宋体"; 
+			  color:#ffffff; 
+			  margin-left:100px; 
+			  margin-top:-25px;} 
+		/*顶部右边排英文的设置*/
+		#div3{font-family:"新宋体";
+			  float:right;
+			  margin-top:-25px;
+			  margin-right:100px; 
+			  color:#ffffff; 
+			  padding-top:5px;} 
+		 /*顶部图片的设置*/
+		#div4{margin-left:1280px; 
+			  margin-top:-18px;}
+		/*头部导航条背景黑色部分的设置*/
+		#div5{width:100%; 
+			  height:133px;
+			  background-color:#1c1d24; 
+			  margin-top:21px;
+			  clear:both;}
+		/*搜索框的设置*/
+		#div6{ float:right; 
+			   margin-top:25px;
+			   margin-right:80px;}
+		/*搜索图标放大镜的设置*/
+		#div7{float:right;
+			  margin-top:32px;
+			  margin-right:-210px;}
+		/*英文football的设置*/
+		#div8{ font-size:60px;
+			   color:#FFFFFF; 
+			   font-family:utsaah; 
+			   margin-top:-10px; 
+			   margin-right:100px; 
+			   padding-top:50px; 
+			   margin-left:70px;}
+		
+		/*导航条*/
+		
+		/*导航条的设置*/
+		#div9{float:right; 
+			  margin-right:150px; 
+			  margin-top:-20px;}
+		/*a标签链接的设置*/
+		a{text-decoration:none; 
+		  color:#ffffff;}
+		/*a标签链接的设置*/
+		a:hover{color:#b2ce22;}
+		/*a标签链接的设置*/
+		a:active { font-style:italic;}
+		/*导航条间距的设置*/
+		a,b,c,d,e,f{ margin-left:15px;}
+		#cent{color:#66CC00;}
+
+
+
+
+
+/*主要内容*/
+#zhu{ width:100%; height:2170px;}
+	/*对第一个标题的设置*/
+	.biaoti1{font-family:Calibri; 
+		     font-size:70px; 
+			 font-weight:bold;
+			 text-align:center; 
+			 margin-top:40px;}
+	.wenzi1{ text-align:center; 
+		     line-height:25px; 
+			 margin-top:20px;}
+	/*对第一条分割线的设置*/
+	.fengexian1{width:100%; 
+		        background-color:#CCCCCC;
+				margin-top:80px;}
+	/*对第二个标题的设置*/
+	.biaoti2{font-family:Calibri; 
+		     font-size:70px; 
+			 font-weight:bold;
+			 text-align:center; 
+			 margin-top:45px;}
+	/*对三列英文的设置*/	
+	.yi p{ color:#afd01f; 
+		   font-size:20px; 
+		   font-weight:bold; 
+		   line-height:0px;}
+	.yi{ margin-left:194px; 
+		 margin-top:90px; 
+		 float:left;}
+	/*对三个标志的设置*/
+	.baiozhi1{ float:left;
+		       margin-left:50px; 
+			   margin-top:-100px;}
+	.baiozhi2{ float:left; 
+		       margin-left:310px; 
+			   margin-top:-100px;}
+	.baiozhi3{ float:left; 
+		       margin-left:300px; 
+			   margin-top:-100px;}
+	/*第二条分割线的设置*/
+	.fengexian2{width:100%; 
+		        background-color:#CCCCCC; 
+				margin-top:300px;}
+	/*对第三个标题的设置*/
+	.biaoti3{font-family:Calibri; 
+		     font-size:70px; 
+			 font-weight:bold;
+			 text-align:center; 
+			 margin-top:50px;}
+	/*对图片的设置*/
+	.tupian img{width:910px;
+		        height:506px; 
+				margin-top:50px;}
+	/*第三条分割线的设置*/
+	.fengexian3{width:100%; 
+		        background-color:#CCCCCC;
+				margin-top:70px;}
+	/*对第四个标题的设置*/
+	.biaoti4{font-family:Calibri; 
+		     font-size:70px; 
+			 font-weight:bold;
+			 text-align:center; 
+			 margin-top:50px;}
+	/*矩形框*/
+	.juxingkuang{ width:460px; 
+		          height:406px; 
+				  border:1px #666666 solid; 
+				  margin-left:140px; 
+				  margin-top:60px; 
+				  float:left;}
+	/*对足球的设置*/
+	.zuqiu img{ width:420px; 
+		        height:380px; 
+				margin-top:70px; 
+				margin-left:-444px;}
+	/*对2014JUGGY以下的英文整体位置调动*/
+	.jugg{ margin-left:700px; 
+		   margin-top:-405px;}
+	/*对2014JUGGY的设置*/
+	.asa{font-family:Calibri; 
+		 font-weight:bold; 
+		 font-size:50px;}
+	/*对数字的设置*/
+	.shuzi{color:#afd01f; 
+		   margin-top:20px; 
+		   font-weight:bold;}
+	/*对那一段英文的设置*/
+	.yingwen{ margin-top:20px; 
+		      line-height:25px;}
+	/*对输入框的设置*/
+	.zi1{ font-family:Calibri;
+		  font-weight:bold; 
+		  font-size:30px; 
+		  margin-top:48px; 
+		  letter-spacing:3px;}
+	.zi2{ font-family:Calibri;
+		  font-weight:bold; 
+		  font-size:30px; 
+		  margin-top:20px;}
+	#yi{ width:200px; 
+		 height:32px; 
+		 font-weight:bold; 
+		 margin-top:-95px; 
+		 font-size:20px; 
+		 text-align:center; 
+		 margin-left:160px;}
+	/*设置第二个输入框的位置*/
+	#er{ width:200px; 
+		 height:32px; 
+		 font-weight:bold; 
+		 margin-top:-30px; 
+		 font-size:20px; 
+		 text-align:center; 
+		 margin-left:160px;}
+	/*对提交按钮的设置*/
+	#anniu{ height:50px;
+		    margin-top:30px; 
+			margin-left:44px;}
+	
+	
+	
+	
+	
+
+	
+	
+/*footer*/
+/*底部*/
+#banquan{ width:100%; height:70px;}	
+	#dibu{width:100%; 
+		  background-color:#1c1d24; 
+		  height:70px;
+		   margin-top:60px;}/*底部背景属性的设置*/
+    #dibu11{ color:#FFFFFF; 
+			 padding-top:30px; 
+			 margin-left:30px; 
+			 text-align:center;}/*底部字体的设置*/

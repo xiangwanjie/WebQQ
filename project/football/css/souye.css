@@ -1,0 +1,185 @@
+body{margin:0; padding:0;}/*两边边距为0*/
+	
+/*头部*/
+#header{clear:both;}/*清除浮动*/
+#header{ width:100%; height:684px;}
+		
+		 /*顶部绿色div的设置*/
+		#div1{background-color:#b2ce22;
+			  width:100%; 
+			  height:38px;} 
+		/*顶部左边英文的设置*/
+		#div2{font-family:"新宋体"; 
+			  color:#ffffff; 
+			  margin-left:100px; 
+			  margin-top:-25px;} 
+		/*顶部右边排英文的设置*/
+		#div3{font-family:"新宋体";
+			  float:right;
+			  margin-top:-25px;
+			  margin-right:100px; 
+			  color:#ffffff; 
+			  padding-top:5px;} 
+		 /*顶部图片的设置*/
+		#div4{margin-left:1280px; 
+			  margin-top:-18px;}
+		/*头部导航条背景黑色部分的设置*/
+		#div5{width:100%; 
+			  height:133px;
+			  background-color:#1c1d24; 
+			  margin-top:21px;
+			  clear:both;}
+		/*搜索框的设置*/
+		#div6{ float:right; 
+			   margin-top:25px;
+			   margin-right:80px;}
+		/*搜索图标放大镜的设置*/
+		#div7{float:right;
+			  margin-top:32px;
+			  margin-right:-210px;}
+		/*英文football的设置*/
+		#div8{ font-size:60px;
+			   color:#FFFFFF; 
+			   font-family:utsaah; 
+			   margin-top:-10px; 
+			   margin-right:100px; 
+			   padding-top:50px; 
+			   margin-left:70px;}
+		
+		/*导航条*/
+		
+		/*导航条的设置*/
+		#div9{float:right; 
+			  margin-right:150px; 
+			  margin-top:-20px;}
+		/*a标签链接的设置*/
+		a{text-decoration:none; 
+		  color:#ffffff;}
+		/*a标签链接的设置*/
+		a:hover{color:#b2ce22;}
+		/*a标签链接的设置*/
+		a:active { font-style:italic;}
+		/*导航条间距的设置*/
+		a,b,c,d,e,f{ margin-left:15px;}
+		#cent{color:#66CC00;}
+		
+		
+		/*首页图片的设置*/
+		#tupian{ padding-top:19px;}
+		/*首页图片上滚动图标三点的设置*/
+		#sandian{ margin-left:645px; 
+			      padding-top:-500px; 
+				  margin-top:-30px;}
+		/*英文NEW FROM FOOTBALL的设置*/
+		
+		
+		
+#zhu{ width:100%; height:1940px;}
+	#div10{font-family:"lucida Handwriting"; 
+		   font-size:60px;
+		   margin-left:300px; 
+		   padding-top:605px;}
+	/*主要内容*/
+	/*间距的设置*/
+	#div11{margin-top:18px;}
+	/*三张图片的设置*/
+	#tu1{float:left; 
+		 margin-left:98px;}
+	/*三张图片的设置*/
+	#tu2{float:left; 
+		 margin-left:50px;}
+	/*三张图片的设置*/
+	#tu3{float:left; 
+		 margin-left:50px;}
+	/*文字的设置*/
+	#zi1{float:left;
+		 margin-left:95px;}
+	/*文字的设置*/
+	#zi2{float:left; 
+	     margin-left:61px;}
+	/*文字的设置*/
+	#zi3{float:left; 
+		 margin-left:65px;}
+	/*分割线的设置*/
+	hr{margin-top:300px; 
+	   width:1000px;}
+	/*英文TRENDING FROM SOCIAL MEDIA的设置*/
+	#div12{font-family:"lucida Handwriting"; 
+		   font-size:60px;margin-left:150px; 
+		   padding-top:50px;}
+	/*div边框的设置*/
+	#wena{border:1px solid; 
+		  width:780px; 
+		  height:100px; 
+		  margin:0 auto; 
+		  color:#999999; 
+		  margin-top:30px;}
+	/*小鸟图标的设置*/
+	#liao{float:right; 
+		  padding-right:15px; 
+		  padding-top:5px;}
+	/*文字的设置*/
+	#wen1{color:#b2ce22; 
+		  font-size:18px; 
+		  margin-left:34px;
+		  margin-top:20px;}
+	/*文字的设置*/
+	#wen2{color:#000000; 
+		  font-size:18px; 
+		  margin-left:34px;}
+	/*文字的设置*/
+	#wen3{color:#000000;  
+		  font-size:18px;
+		  margin-left:34px; 
+		  padding-top:-35px;}
+	/*div边框的设置*/
+	#wenb{border:1px solid; 
+		  width:780px; 
+		  height:500px; 
+		  margin:0 auto; 
+		  color:#999999; 
+		  margin-top:30px;}
+	/*图标的设置*/
+	#tubiao{float:right; 
+		    padding-right:15px; 
+			padding-top:5px;}
+	/*文字的设置*/
+	#wen4{color:#b2ce22; 
+		  font-size:18px; 
+		  margin-left:34px; 
+		  margin-top:20px;}
+	/*图片的设置*/
+	#tup{margin-top:12px;
+		 margin-left:44px;}
+	/*文字的设置*/
+	#wzi{float:right; 
+		 margin: 0 auto; 
+		 margin-top:-280px;
+		 margin-right:65px; 
+		 color:#000000;}
+	/*div边框的设置*/
+	#wenc{border:1px solid; 
+		  width:780px; 
+		  height:100px; 
+		  margin:0 auto; 
+		  color:#999999; 
+		  margin-top:30px;}
+
+
+
+
+
+
+/*底部*/
+#banquan{ width:100%; height:70px;}		
+	/*底部背景属性的设置*/
+	#dibu{width:100%; 
+		  background-color:#1c1d24; 
+		  height:70px; 
+		  margin-top:50px;}
+	/*底部字体的设置*/
+	#dibu11{ color:#FFFFFF; 
+		     padding-top:30px; 
+			 margin-left:30px; 
+			 text-align:center;}
+	

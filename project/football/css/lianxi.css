@@ -1,0 +1,138 @@
+body{margin:0; padding:0;}/*两边边距为0*/
+
+/*头部*/
+#header{clear:both;}/*清除浮动*/
+#header{ width:100%; height:168px;}
+		 /*顶部绿色div的设置*/
+		#div1{background-color:#b2ce22;
+			  width:100%; 
+			  height:38px;} 
+		/*顶部左边英文的设置*/
+		#div2{font-family:"新宋体"; 
+			  color:#ffffff; 
+			  margin-left:100px;
+			   margin-top:-25px;} 
+		 /*顶部右边排英文的设置*/
+		#div3{font-family:"新宋体";
+			  float:right;margin-top:-25px;
+			  margin-right:100px; color:#ffffff; 
+			  padding-top:5px;}
+		/*顶部图片的设置*/
+		#div4{margin-left:1280px; 
+			  margin-top:-18px;} 
+		/*头部导航条背景黑色部分的设置*/
+		#div5{width:100%; 
+			  height:133px;
+			  background-color:#1c1d24; 
+			  margin-top:21px;
+			  clear:both;}
+		/*搜索框的设置*/
+		#div6{ float:right; 
+			   margin-top:25px;
+			   margin-right:80px;}
+		/*搜索图标放大镜的设置*/
+		#div7{float:right;
+			  margin-top:32px;
+			  margin-right:-210px;}
+		/*英文football的设置*/
+		#div8{ font-size:60px;
+			   color:#FFFFFF; 
+			   font-family:utsaah;
+			    margin-top:-10px; 
+				margin-right:100px; 
+				padding-top:50px; 
+				margin-left:70px;}
+		
+		
+		/*导航条*/
+		
+		/*导航条的设置*/
+		#div9{float:right; 
+			  margin-right:150px;
+			  margin-top:-20px;}
+		/*a标签链接的设置*/
+		a{text-decoration:none; 
+		  color:#ffffff;}
+		/*a标签链接的设置*/
+		a:hover{color:#b2ce22;}
+		/*a标签链接的设置*/
+		a:active { font-style:italic;}
+		/*导航条间距的设置*/
+		a,b,c,d,e,f{ margin-left:15px;}
+		#cent{color:#66CC00;}
+
+
+
+
+
+
+
+<!--mian()主要内容-->
+#zhu{ width:100%; height:652px;}
+	.word1{}
+	#word1{ font-family:"Lucida Handwriting"; 
+			font-size:30px;
+			padding-left:180px; 
+			margin-top:80px;}
+	.word2{ font-family:"Lucida Handwriting"; 
+			font-size:30px;
+			margin-left:740px;
+			margin-top:-42px;}
+	.wenzi3{padding-left:100px;
+			 margin-top:-480px;}	/*右内边距；定外边距*/
+
+	.wenzi4{margin-left:366px;
+			 margin-top:-34px;}	/*右外边距；定外边距*/
+	
+	.wenzi5{margin-left:100px; 
+			margin-top:100px;}	
+	
+	.wenzi6{margin-left:100px;
+			 margin-top:100px;}
+
+	.tupian{ margin-left:700px;
+			 margin-top:42px;} /* 左外边距；定外边距*/
+	
+	#dx1{width:240px; height:46px;
+		 position:relative; 
+		 left:-520px; 
+		 margin-top:-230px;}	/*宽；高；相对定位；右外边距；定外边距*/
+	
+	#dx2{width:240px; 
+		height:46px; 
+		float:left;
+		margin-left:366px; 
+		margin-top:-231px;}	/*宽；高；浮动向左；左外边距；顶外边距*/
+	
+	#dx3{width:508px; 
+		 height:46px;
+		 float:left;
+		 margin-left:96px;
+		 margin-top:-110px; 
+		 padding-left:10px;}	
+	
+	#dx4{ float:left;
+		  margin-left:95px;
+		  margin-top:7px;}	/*浮动向左；左外边距；定外边距*/
+	
+	#tijiao{float:left; 
+			margin-top:140px;
+		    margin-left:-143px;}	
+	
+	
+	
+	
+	
+
+/*底部*/
+#banquan{ width:100%; height:70px;}	
+	#dibu{width:100%; 
+		  background-color:#1c1d24; 
+		  height:70px;
+		   margin-top:250px;}/*底部背景属性的设置*/
+    #dibu11{ color:#FFFFFF; 
+			 padding-top:30px; 
+			 margin-left:30px; 
+			 text-align:center;}/*底部字体的设置*/
+
+
