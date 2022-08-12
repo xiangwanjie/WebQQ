@@ -1,0 +1,25 @@
+{
+  "name": "webqq",
+  "version": "1.0.0",
+  "description": "> 此项目是我大学时做的一个demo，主要用来提升自己的js技术能力。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiangwanjie/WebQQ.git"
+  },
+  "author": "xwj",
+  "keywords": [
+    "桌面应用",
+    "音乐",
+    "Demo"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiangwanjie/WebQQ/issues"
+  },
+  "homepage": "https://github.com/xiangwanjie/WebQQ#readme"
+}
